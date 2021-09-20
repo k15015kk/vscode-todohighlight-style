@@ -1,0 +1,50 @@
+{
+    "todohighlight.defaultStyle": {
+        "isWholeLine": true,
+        "borderRadius": "4px",
+    },
+    "todohighlight.keywords": [
+        // 危険な部分を示す
+        {
+            "text": "XXX: ",
+            "color": "#ffffff",
+            "backgroundColor": "#ba000d"
+        },
+        // 修正が必要な部分を示す
+        {
+            "text": "FIXME: ",
+            "color": "#ffffff",
+            "backgroundColor": "#c25e00"
+        },
+        // 注意が必要な部分を示す
+        {
+            "text": "WARNING: ",
+            "color": "#000000",
+            "backgroundColor": "#c8b900"
+        },
+        // 修正した部分を示す
+        {
+            "text": "CHANGED: ",
+            "color": "#ffffff",
+            "backgroundColor": "#087f23"
+        },
+        // やらなければいけないタスクがある部分を示す
+        {
+            "text": "TODO: ",
+            "color": "#ffffff",
+            "backgroundColor": "#0069c0"
+        },
+        // リファクタリングが必要な部分を示す
+        {
+            "text": "HACK: ",
+            "color": "#ffffff",
+            "backgroundColor": "#6a0080"
+        },
+        // 補足事項がある部分を示す
+        {
+            "text": "NOTE: ",
+            "color": "#ffffff",
+            "backgroundColor": "#707070"
+        },
+    ]
+}
